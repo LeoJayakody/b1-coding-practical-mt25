@@ -8,6 +8,7 @@ def generate_random_multisine_timeseries(length=100):
     
     frequncies = np.array([0.05,0.1,0.5,1])
 
+    # 
     # Generate a multisine time series by summing sine waves with random frequencies and amplitudes
     multisine_series = np.zeros(length)
     for frequency in frequncies:
